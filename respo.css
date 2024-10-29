@@ -1,0 +1,1448 @@
+@media screen and (min-width:300px) {
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); 
+
+    *{
+        font-family: poppins;
+    }
+    
+    body{
+        margin: 0;
+        padding: 0;
+       
+    }
+    
+    .main-container{
+        background-image: url(images/Poster.png);
+        background-size:cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 200px;
+        
+        
+    }
+    .contain{
+        width: 100%;
+        height: auto;
+        background-color: transparent;
+        display: flex;
+    }
+    
+    .img1{
+        width: 30px;
+        height: 30px;
+        margin-top: 5%; 
+        margin-left: 4%;  
+    }
+     h2{
+        color: white;
+        font-weight: 20px;
+        font-size: 15px;
+        padding-left: 10px;
+        padding-top: 2%;
+    }
+    .search{
+        width: 40%;
+        height: 30%;
+        margin-top: 2.5%;
+        margin-left: 7%;
+        background-color: transparent;
+        border: 1px solid rgb(54, 53, 53);
+        outline: none;
+        color: white;
+        display: none;
+    }
+    .signin{
+        padding-left:15% ;
+        color: white;
+        margin-left: 30%;
+    }
+    .nav-content{
+        width: 80%;
+        height: auto;
+        background-color:transparent;
+        margin-bottom: 15%;
+        margin-left: 1%;
+        color: white;
+    }
+    .johnwick1 {
+        font-size: 15.7px;
+        outline: none;
+        background-color:transparent;
+        color: white;
+    }
+    .img2  {
+        width: 20px;
+        height: 10px;
+        margin-top: 5%;
+        
+    }
+    .rate {
+        padding-left: 10px;
+        font-size: 10px;
+        padding-top: 2%;
+    }
+    .img3 {
+        width: 9px;
+        height: 10px;
+        padding-left: 10px;
+    
+    }
+    .per{
+        padding-left: 10px;
+        font-size: 10px;
+        padding-top: 2%;
+    }
+    .description {
+        display: flex;
+    }
+    .write-up {
+        font-size: 7px;
+        padding-top: 2%;
+        font-weight: 300;
+    }
+    .img4 {
+        width: 10px;
+        height: 10px;
+        background-color: red;
+        border-radius: 100%;
+    
+    }
+    button {
+        font-size: 10px;
+        background-color: red;
+        border: 2.5px solid red;
+        margin-top: 2%;
+       
+    }
+       
+
+    .scroll-container{
+        width: 100%;
+        height: 70%;
+        margin-left: 0%;
+        background-color: greenyellow;
+        display: flex;
+        margin-top: 0%;
+    }
+    .scroll2{
+        padding-left: 40%;
+       
+    }
+    .scroll1{
+        padding-left: 2%;
+    }
+
+    #grid-container {
+        overflow-x: hidden;
+        width: fit-content;
+        display: block;
+        grid-template-columns: repeat(4, 150px);
+        grid-auto-rows: auto;
+        gap: 10px ;
+        margin: auto;
+    }
+    #grid-container .movie-content img  {
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+        height: 400px;
+    }
+    .movie-content h1 {
+        font-size: 1rem;
+        padding-left: 5px;
+    }
+
+    .movie-content p {
+        font-size: 0.8rem;
+        color:rgb(217, 33, 95);
+        margin-top: 2px;
+        padding-left: 5px;
+
+       
+    }
+    a{
+        text-decoration: none;
+    
+    }
+
+    .footer{
+        width: 100%;
+        height: 100px;
+        margin-top: 3%;
+    }
+    .icon{
+        padding-left: 35%;
+    i{
+        padding-left: 7%;
+        padding-top: 1%;
+    }
+    }
+    
+    .footer-text{
+        font-size: 10px;
+        font-weight: 600;
+        text-align: center;
+        padding-top: 2%;
+    }
+    
+    .footer-text span{
+        padding-left: 2%;
+        font-size: 10px;
+    }
+    
+    h5{
+    text-align: center;
+    padding-left: 2%;
+    font-size: 10px;
+    line-height: 20%;
+    }
+}
+
+@media screen and (min-width:500px) {
+    
+
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); 
+
+    *{
+        font-family: poppins;
+    }
+    
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    
+    .main-container{
+        background-image: url(images/Poster.png);
+        background-size:cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 200px;
+        /* display: flex; */
+        
+    }
+    .contain{
+        width: 100%;
+        height: auto;
+        background-color: transparent;
+        display: flex;
+    }
+    
+    .img1{
+        width: 30px;
+        height: 30px;
+        margin-top: 2%; 
+        margin-left: 4%;  
+    }
+     h2{
+        color: white;
+        font-weight: 20px;
+        font-size: 15px;
+        padding-left: 10px;
+        padding-top: 0%;
+    }
+    .search{
+        width: 40%;
+        height: 30%;
+        margin-top: 2.5%;
+        margin-left: 7%;
+        background-color: transparent;
+        border: 1px solid rgb(54, 53, 53);
+        outline: none;
+        color: white;
+        display: none;
+    }
+    .signin{
+        padding-left:15% ;
+        color: white;
+        margin-left: 43%;
+    }
+    .nav-content{
+        width: 80%;
+        height: auto;
+        background-color: transparent;
+        margin-bottom: 15%;
+        margin-left: 1%;
+        color: white;
+    }
+    .johnwick1 {
+        font-size: 15.7px;
+        /* text-align: justify; */
+        outline: none;
+        background-color:transparent;
+        color: white;
+    }
+    .img2  {
+        width: 20px;
+        height: 10px;
+        margin-top: 5%;
+        
+    }
+    .rate {
+        padding-left: 10px;
+        font-size: 10px;
+        padding-top: 1%;
+    }
+    .img3 {
+        width: 9px;
+        height: 10px;
+        padding-left: 10px;
+    
+    }
+    .per{
+        padding-left: 10px;
+        font-size: 10px;
+        padding-top: 1%;
+    }
+    .description {
+        display: flex;
+        /* background-color: red; */
+        /* justify-content: space-between; */
+    
+    }
+    .write-up {
+        font-size: 7px;
+        padding-top: 2%;
+        font-weight: 300;
+    }
+    .img4 {
+        width: 10px;
+        height: 10px;
+        background-color: red;
+        border-radius: 100%;
+    
+    }
+    button {
+        font-size: 10px;
+        background-color: red;
+        border: 2.5px solid red;
+        margin-top: 2%;
+       
+    }
+       
+
+    .scroll-container{
+        width: 100%;
+        height: 70%;
+        margin-left: 0%;
+        display: flex;
+        margin-top: 2%;
+    }
+    .scroll2{
+        padding-left: 45%;
+       
+    }
+    .scroll1{
+        padding-left: 7%;
+    }
+
+    #grid-container {
+        overflow-x: hidden;
+        width: fit-content;
+        display: grid;
+        grid-template-columns: repeat(2, 200px);
+        grid-auto-rows: auto;
+        gap: 10px ;
+        margin: auto;
+        height: auto;
+        overflow: hidden;
+    }
+    #grid-container .movie-content img  {
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+        height: auto;
+    }
+    .movie-content h1 {
+        font-size: 0.8rem;
+        padding-left: 5px;
+    }
+
+    .movie-content p {
+        font-size: 0.8rem;
+        color:rgb(217, 33, 95);
+        margin-top: 2px;
+        padding-left: 5px;
+
+       
+    }
+    a{
+        text-decoration: none;
+    
+    }
+
+    .footer{
+        /* background-color: rgb(209, 222, 218); */
+        width: 100%;
+        height: 100px;
+        margin-top: 3%;
+    }
+    .icon{
+        padding-left: 35%;
+    i{
+        padding-left: 7%;
+        padding-top: 1%;
+    }
+    }
+    
+    .footer-text{
+        font-size: 10px;
+        font-weight: 600;
+        text-align: center;
+        padding-top: 2%;
+    }
+    
+    .footer-text span{
+        padding-left: 2%;
+        font-size: 10px;
+    }
+    
+    h5{
+    text-align: center;
+    padding-left: 2%;
+    font-size: 10px;
+    line-height: 20%;
+    }
+    
+
+}
+
+@media screen and (min-width: 600px)  {
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); 
+
+    *{
+        font-family: poppins;
+    }
+    
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    
+    .main-container{
+        background-image: url(images/Poster.png);
+        background-size:cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 230px;
+        /* display: flex; */
+        
+    }
+    .contain{
+        width: 100%;
+        height: auto;
+        background-color: transparent;
+        display: flex;
+    }
+    
+    .img1{
+        width: 30px;
+        height: 30px;
+        margin-top: 2%; 
+        margin-left: 4%;  
+    }
+     h2{
+        color: white;
+        font-weight: 20px;
+        font-size: 15px;
+        padding-left: 10px;
+        padding-top: 1%;
+    }
+    .search{
+        width: 70%;
+        height: 40%;
+        margin-top: 2.5%;
+        background-color: transparent;
+         margin-left: 10%; 
+        background-color: black;
+        border: 1px solid rgb(54, 53, 53);
+        outline: none;
+        color: white;
+        
+    }
+    .signin{
+        padding-left:15% ;
+        color: white;
+        margin-left: 50%;
+    }
+    .nav-content{
+        width: 80%;
+        height: auto;
+        background-color: transparent;
+        margin-bottom: 15%;
+        margin-left: 1%;
+        color: white;
+    }
+    .johnwick1 {
+        font-size: 17.7px;
+        /* text-align: justify; */
+        outline: none;
+        background-color:transparent;
+        color: white;
+    }
+    .img2  {
+        width: 20px;
+        height: 10px;
+        margin-top: 5%;
+        
+    }
+    .rate {
+        padding-left: 10px;
+        font-size: 10px;
+        padding-top: 1%;
+    }
+    .img3 {
+        width: 9px;
+        height: 10px;
+        padding-left: 10px;
+    
+    }
+    .per{
+        padding-left: 10px;
+        font-size: 10px;
+        padding-top: 1%;
+    }
+    .description {
+        display: flex;
+        /* background-color: red; */
+        /* justify-content: space-between; */
+    
+    }
+    .write-up {
+        font-size: 9px;
+        padding-top: 2%;
+        font-weight: 300;
+    }
+    .img4 {
+        width: 10px;
+        height: 10px;
+        background-color: red;
+        border-radius: 100%;
+    
+    }
+    button {
+        font-size: 10px;
+        background-color: red;
+        border: 2.5px solid red;
+        margin-top: 1%;
+       
+    }
+       
+
+    .scroll-container{
+        width: 100%;
+        height: 70%;
+        margin-left: 0%;
+        display: flex;
+        margin-top: 2%;
+    }
+    .scroll2{
+        padding-left: 57%;
+       
+    }
+    .scroll1{
+        padding-left: 7%;
+    }
+
+    #grid-container {
+        overflow-x: hidden;
+        width: fit-content;
+        display: grid;
+        height: auto;
+        grid-template-columns: repeat(3, 180px);
+        grid-auto-rows: auto;
+        gap: 10px ;
+        margin: auto;
+    }
+    #grid-container .movie-content img  {
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+        height: auto;
+    }
+    .movie-content h1 {
+        font-size: 1rem;
+        padding-left: 5px;
+    }
+
+    .movie-content p {
+        font-size: 0.8rem;
+        color:rgb(217, 33, 95);
+        margin-top: 2px;
+        padding-left: 5px;
+
+       
+    }
+    a{
+        text-decoration: none;
+    
+    }
+
+    .footer{
+        /* background-color: rgb(209, 222, 218); */
+        width: 100%;
+        height: 100px;
+        margin-top: 3%;
+        font-size: 50px;
+
+    }
+    .icon{
+        padding-left: 35%;
+        font-size: 50px;
+    i{
+        padding-left: 7%;
+        padding-top: 1%;
+    }
+    }
+    
+    .footer-text{
+        font-size: 10px;
+        font-weight: 600;
+        text-align: center;
+        padding-top: 2%;
+    }
+    
+    .footer-text span{
+        padding-left: 2%;
+        font-size: 10px;
+    }
+    
+    h5{
+    text-align: center;
+    padding-left: 2%;
+    font-size: 10px;
+    line-height: 20%;
+    }
+    
+
+
+
+}
+
+@media screen and  (min-width: 700px) {
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); 
+
+    *{
+        font-family: poppins;
+    }
+    
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    
+    .main-container{
+        background-image: url(images/Poster.png);
+        background-size:cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 230px;
+        /* display: flex; */
+        
+    }
+    .contain{
+        width: 100%;
+        height: auto;
+        background-color: transparent;
+        display: flex;
+    }
+    
+    .img1{
+        width: 30px;
+        height: 30px;
+        margin-top: 2%; 
+        margin-left: 4%;  
+    }
+     h2{
+        color: white;
+        font-weight: 20px;
+        font-size: 15px;
+        padding-left: 10px;
+        padding-top: 1%;
+    }
+    .search{
+        width: 70%;
+        height: 40%;
+        margin-top: 2.5%;
+        background-color: transparent;
+         margin-left: 10%; 
+        background-color: black;
+        border: 1px solid rgb(54, 53, 53);
+        outline: none;
+        color: white;
+        
+    }
+    .signin{
+        padding-left:15% ;
+        color: white;
+        margin-left: 50%;
+    }
+    .nav-content{
+        width: 80%;
+        height: auto;
+        background-color: transparent;
+        margin-bottom: 15%;
+        margin-left: 1%;
+        color: white;
+    }
+    .johnwick1 {
+        font-size: 17.7px;
+        /* text-align: justify; */
+        outline: none;
+        background-color:transparent;
+        color: white;
+    }
+    .img2  {
+        width: 20px;
+        height: 10px;
+        margin-top: 5%;
+        
+    }
+    .rate {
+        padding-left: 10px;
+        font-size: 10px;
+        padding-top: 1%;
+    }
+    .img3 {
+        width: 9px;
+        height: 10px;
+        padding-left: 10px;
+    
+    }
+    .per{
+        padding-left: 10px;
+        font-size: 10px;
+        padding-top: 1%;
+    }
+    .description {
+        display: flex;
+        /* background-color: red; */
+        /* justify-content: space-between; */
+    
+    }
+    .write-up {
+        font-size: 9px;
+        padding-top: 2%;
+        font-weight: 300;
+    }
+    .img4 {
+        width: 10px;
+        height: 10px;
+        background-color: red;
+        border-radius: 100%;
+    
+    }
+    button {
+        font-size: 10px;
+        background-color: red;
+        border: 2.5px solid red;
+        margin-top: 1%;
+       
+    }
+       
+
+    .scroll-container{
+        width: 100%;
+        height: 70%;
+        margin-left: 0%;
+        display: flex;
+        margin-top: 2%;
+    }
+    .scroll2{
+        padding-left: 57%;
+       
+    }
+    .scroll1{
+        padding-left: 7%;
+    }
+
+    #grid-container {
+        overflow-x: hidden;
+        width: fit-content;
+        display: grid;
+        height: auto;
+        grid-template-columns: repeat(4, 170px);
+        grid-auto-rows: auto;
+        gap: 10px ;
+        margin: auto;
+    }
+    #grid-container .movie-content img  {
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+        height: auto;
+    }
+    .movie-content h1 {
+        font-size: 1rem;
+        padding-left: 5px;
+    }
+
+    .movie-content p {
+        font-size: 0.8rem;
+        color:rgb(217, 33, 95);
+        margin-top: 2px;
+        padding-left: 5px;
+
+       
+    }
+    a{
+        text-decoration: none;
+    
+    }
+
+    .footer{
+        /* background-color: rgb(209, 222, 218); */
+        width: 100%;
+        height: 100px;
+        margin-top: 3%;
+        font-size: 50px;
+
+    }
+    .icon{
+        padding-left: 35%;
+        font-size: 50px;
+    i{
+        padding-left: 7%;
+        padding-top: 1%;
+    }
+    }
+    
+    .footer-text{
+        font-size: 10px;
+        font-weight: 600;
+        text-align: center;
+        padding-top: 2%;
+    }
+    
+    .footer-text span{
+        padding-left: 2%;
+        font-size: 10px;
+    }
+    
+    h5{
+    text-align: center;
+    padding-left: 2%;
+    font-size: 10px;
+    line-height: 20%;
+    }
+    
+
+
+
+}
+
+@media screen and (min-width:900px) {
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); 
+
+    *{
+        font-family: poppins;
+    }
+    
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    
+    .main-container{
+        background-image: url(images/Poster.png);
+        background-size:cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 250px;
+        overflow: hidden;
+       
+        
+    }
+    .contain{
+        width: 100%;
+        height: auto;
+        background-color: transparent;
+        display: flex;
+    }
+    
+    .img1{
+        width: 30px;
+        height: 30px;
+        margin-top: 2%; 
+        margin-left: 4%;  
+    }
+     h2{
+        color: white;
+        font-weight: 20px;
+        font-size: 15px;
+        padding-left: 10px;
+        padding-top: 1%;
+    }
+    .search{
+        width: 50%;
+        height: 40%;
+        margin-top: 2.5%;
+        background-color: transparent;
+        margin-left: 10%;
+        background-color: black;
+        border: 1px solid rgb(54, 53, 53);
+        outline: none;
+        color: white;
+        
+    }
+    .signin{
+        padding-left:15% ;
+        color: white;
+        margin-left: 50%;
+    }
+    .nav-content{
+        width: 50%;
+        height: auto;
+        background-color: transparent;
+        margin-bottom: 15%;
+        margin-left: 1%;
+        color: white;
+    }
+    .johnwick1 {
+        font-size: 17.7px;
+        /* text-align: justify; */
+        outline: none;
+        background-color:transparent;
+        color: white;
+    }
+    .img2  {
+        width: 20px;
+        height: 10px;
+        margin-top: 5%;
+        
+    }
+    .rate {
+        padding-left: 10px;
+        font-size: 10px;
+        padding-top: 1%;
+    }
+    .img3 {
+        width: 9px;
+        height: 10px;
+        padding-left: 10px;
+    
+    }
+    .per{
+        padding-left: 10px;
+        font-size: 10px;
+        padding-top: 1%;
+    }
+    .description {
+        display: flex;
+        /* background-color: red; */
+        /* justify-content: space-between; */
+    
+    }
+    .write-up {
+        font-size: 9px;
+        padding-top: 2%;
+        font-weight: 300;
+    }
+    .img4 {
+        width: 10px;
+        height: 10px;
+        background-color: red;
+        border-radius: 100%;
+    
+    }
+    button {
+        font-size: 10px;
+        background-color: red;
+        border: 2.5px solid red;
+        margin-top: 1%;
+       
+    }
+       
+    
+   
+       
+
+    .scroll-container{
+        width: 100%;
+        height: 70%;
+        margin-left: 0%;
+        display: flex;
+        margin-top: 2%;
+    }
+    .scroll2{
+        padding-left: 60%;
+       
+    }
+    .scroll1{
+        padding-left: 7%;
+    }
+
+    #grid-container {
+        overflow-x: hidden;
+        width: fit-content;
+        display: grid;
+        height: auto;
+        grid-template-columns: repeat(4, 200px);
+        grid-auto-rows: auto;
+        gap: 10px ;
+        margin: auto;
+    }
+    #grid-container .movie-content img  {
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+        height: auto;
+    }
+    .movie-content h1 {
+        font-size: 1rem;
+        padding-left: 5px;
+    }
+
+    .movie-content p {
+        font-size: 0.8rem;
+        color:rgb(217, 33, 95);
+        margin-top: 2px;
+        padding-left: 5px;
+
+       
+    }
+    a{
+        text-decoration: none;
+    
+    }
+
+    .footer{
+        /* background-color: rgb(209, 222, 218); */
+        width: 100%;
+        height: 100px;
+        margin-top: 3%;
+    }
+    .icon{
+        padding-left: 35%;
+    i{
+        padding-left: 7%;
+        padding-top: 1%;
+    }
+    }
+    
+    .footer-text{
+        font-size: 16px;
+        font-weight: 600;
+        text-align: center;
+        padding-top: 2%;
+    }
+    
+    .footer-text span{
+        padding-left: 2%;
+        font-size: 10px;
+    }
+    
+    h5{
+    text-align: center;
+    padding-left: 2%;
+    font-size: 25px;
+    line-height: 20%;
+    }
+    
+
+
+
+}
+
+@media screen and (min-width:1200px) {
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); 
+
+    *{
+        font-family: poppins;
+    }
+    
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    
+    .main-container{
+        background-image: url(images/Poster.png);
+        background-size: cover;
+        width: 100%;
+        height: 300px;
+        overflow: hidden;
+         
+        
+    }
+    .contain{
+        width: 100%;
+        height: 20%;
+        background-color: transparent;
+        display: flex;
+    }
+    
+    .img1{
+        width: 30px;
+        height: 30px;
+        margin-top: 1%; 
+        margin-left: 4%;  
+    }
+     h2{
+        color: white;
+        font-weight: 20px;
+        font-size: 16px;
+        padding-left: 10px;
+        padding-top: 0%;
+    }
+    .search{
+        width: 40%;
+        height: 30%;
+        margin-top: 2.5%;
+        margin-left: 7%;
+        background-color: transparent;
+        border: 1px solid rgb(54, 53, 53);
+        outline: none;
+        color: white;
+    }
+    .signin{
+        padding-left:30% ;
+        color: white;
+    }
+    .nav-content{
+        width: 60%;
+        height: 55%;
+        background-color: transparent;
+        margin-top: 3%;
+        margin-left: 3%;
+        color: white;
+    }
+    .johnwick1 {
+        font-size: 25px; 
+        font-weight: 300;
+        outline: none;
+        background-color:transparent;
+        color: white;
+    }
+    .img2  {
+        width: 20px;
+        height: 10px;
+        
+    }
+    .rate {
+        padding-left: 10px;
+        font-size: 10px;
+        padding-top: 1%;
+    }
+    .img3 {
+        width: 15px;
+        height: 10px;
+        padding-left: 20px;
+    
+    }
+    .per{
+        padding-left: 10px;
+        font-size: 10px;
+        padding-top: 1%;
+    }
+    .description {
+        display: flex;
+    
+    }
+    .write-up {
+        font-size: 15px;
+        padding-top: 2%;
+        overflow: hidden;
+    }
+    .img4 {
+        width: 10px;
+        height: 10px;
+        background-color: red;
+        border-radius: 100%;
+    
+    }
+    button {
+        font-size: 10px;
+        background-color: red;
+        border: 2.5px solid red;
+        margin-top: 2%;
+       
+    }
+    .scroll-container{
+        width: 87.2%;
+        height: 70%;
+        margin-left: 6.4%;
+        display: flex;
+        margin-top: 2%;
+        padding-bottom: 2%;
+        overflow: hidden;
+    }
+    .scroll2{
+        padding-left: 75%;
+       
+    }
+    .scroll1{
+        padding-left: 1%;
+    }
+    #grid-container {
+        overflow-x: hidden;
+        width: fit-content;
+        display: grid;
+        height: auto;
+        grid-template-columns: repeat(4, 280px);
+        grid-auto-rows: auto;
+        gap: 10px ;
+        margin: auto;
+        overflow: hidden;
+    }
+    
+    #grid-container .movie-content img  {
+        width: 90%;
+        object-fit: cover;
+        object-position: center;
+        height: auto;
+        overflow: hidden;
+    }
+    .movie-content h1 {
+        font-size: 0.9rem;
+    }
+    
+
+    .movie-content p {
+        font-size: 0.9rem;
+        color:rgb(217, 33, 95);
+        margin-top: 5px;
+       
+    }
+    a{
+        text-decoration: none;
+    
+    }
+    
+    .footer{
+        width: 100%;
+        height: 100px;
+        margin-top: 3%;
+    }
+    .icon{
+        padding-left: 35%;
+    i{
+        padding-left: 7%;
+        padding-top: 1%;
+    }
+    }
+    
+    .footer-text{
+        font-size: 10px;
+        font-weight: 600;
+        text-align: center;
+        padding-top: 2%;
+    }
+    
+    .footer-text span{
+        padding-left: 2%;
+        font-size: 10px;
+    }
+    
+    h5{
+    text-align: center;
+    padding-left: 2%;
+    font-size: 10px;
+    line-height: 20%;
+    }
+    
+}
+
+ @media screen and (min-width:1400px) {
+
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); 
+
+*{
+    font-family: poppins;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.main-container{
+    background-image: url(images/Poster.png);
+    background-size: cover;
+    width: 100%;
+    height: 250px;
+    /* display: flex; */
+    
+}
+.contain{
+    width: 100%;
+    height: 20%;
+    background-color: transparent;
+    display: flex;
+}
+
+.img1{
+    width: 30px;
+    height: 30px;
+    margin-top: 2%; 
+    margin-left: 4%;  
+}
+ h2{
+    color: white;
+    font-weight: 20px;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-top: 1%;
+}
+.search{
+    width: 70%;
+    height: 30%;
+    margin-top: 2.5%;
+    margin-left: 7%;
+    background-color: transparent;
+    border: 1px solid rgb(54, 53, 53);
+    outline: none;
+    color: white;
+}
+.signin{
+    padding-left:15% ;
+    color: white;
+}
+.nav-content{
+    width: 30%;
+    height: 55%;
+    background-color: transparent;
+    margin-top: 3%;
+    margin-left: 3%;
+    color: white;
+}
+.johnwick1 {
+    font-size: 20px;
+    /* text-align: justify; */
+    font-weight: 300;
+    outline: none;
+    background-color:transparent;
+    color: white;
+}
+.img2  {
+    width: 20px;
+    height: 10px;
+    
+}
+.rate {
+    padding-left: 10px;
+    font-size: 10px;
+    padding-top: 2%;
+}
+.img3 {
+    width: 10px;
+    height: 10px;
+    padding-left: 20px;
+
+}
+.per{
+    padding-left: 10px;
+    font-size: 10px;
+    padding-top: 2%;
+}
+.description {
+    display: flex;
+    /* justify-content: space-between; */
+
+}
+.write-up {
+    font-size: 7px;
+    padding-top: 2%;
+}
+.img4 {
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 100%;
+
+}
+button {
+    font-size: 10px;
+    background-color: red;
+    border: 2.5px solid red;
+    margin-top: 2%;
+   
+}
+.scroll-container{
+    width: 87.2%;
+    height: 70%;
+    margin-left: 6.4%;
+    /* background-color: red; */
+    display: flex;
+    margin-top: 2%;
+    padding-bottom: 2%;
+}
+.scroll2{
+    padding-left: 65%;
+   
+}
+.scroll1{
+    padding-left: 2%;
+}
+#grid-container {
+    overflow-x: hidden;
+    width: fit-content;
+    display: grid;
+    grid-template-columns: repeat(4, 150px);
+    grid-auto-rows: auto;
+    gap: 10px ;
+    margin: auto;
+}
+
+#grid-container .movie-content img  {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    height: auto;
+}
+.movie-content h1 {
+    font-size: 0.9rem;
+}
+
+
+.movie-content p {
+    font-size: 0.9rem;
+    color:rgb(217, 33, 95);
+    margin-top: 5px;
+   
+}
+a{
+    text-decoration: none;
+
+}
+
+.footer{
+    /* background-color: rgb(209, 222, 218); */
+    width: 100%;
+    height: 100px;
+    margin-top: 3%;
+}
+.icon{
+    padding-left: 35%;
+i{
+    padding-left: 7%;
+    padding-top: 1%;
+}
+}
+
+.footer-text{
+    font-size: 10px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 2%;
+}
+
+.footer-text span{
+    padding-left: 2%;
+    font-size: 10px;
+}
+
+h5{
+text-align: center;
+padding-left: 2%;
+font-size: 10px;
+line-height: 20%;
+}
+
+    
+ }
